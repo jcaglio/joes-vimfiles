@@ -1,6 +1,8 @@
-" Set file encoding
+" Set file encoding and font
 set encoding=utf-8
 set fileencoding=utf-8
+set guifont=courier_new:h16:w9:cDEFAULT
+colorscheme blackboard
 
 " Show invisible characters and define display characters
 set list
@@ -12,12 +14,14 @@ set number
 set norelativenumber
 set cursorline
 
+" Set the status line
+set laststatus=2
+set statusline=%m%rFile\ Name:%<%F\ File\ Type:%y%=%p%%
+
 " Set no text wrapping
 set nowrap
 syntax on
 set visualbell
-set guifont=courier_new:h16:w9:cDEFAULT
-colorscheme blackboard
 set autoindent
 
 " Set Leader and Local Leader
